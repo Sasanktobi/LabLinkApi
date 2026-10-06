@@ -1,0 +1,58 @@
+@Backend_HostAddress = http://localhost:5220
+# Paste the "token" from a login response here.
+@token =
+
+### Login (dev admin is seeded from appsettings.Development.json)
+POST {{Backend_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{ "email": "admin@lablink.local", "password": "Admin@12345" }
+
+### Patient self-registration
+POST {{Backend_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "firstName": "Asha", "lastName": "Rao", "email": "asha@example.com", "phoneNo": "9000000001",
+  "password": "Passw0rd!", "dateOfBirth": "1990-05-15", "gender": "Female",
+  "address": "12 MG Road", "city": "Pune", "state": "MH", "postalCode": "411001"
+}
+
+### Test catalogue (public)
+GET {{Backend_HostAddress}}/api/tests
+
+###
+GET {{Backend_HostAddress}}/api/test-panels
+
+### Create a staff account (Admin). roleId: 3 Doctor, 4 Pathologist, 5 LabTechnician, 6 Phlebotomist, 7 Receptionist
+POST {{Backend_HostAddress}}/api/users
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "firstName": "Priya", "lastName": "Shah", "email": "phleb@lablink.local", "phoneNo": "9876543210",
+  "password": "Passw0rd!", "roleId": 6, "serviceZone": "North"
+}
+
+### Available home-collection slots
+GET {{Backend_HostAddress}}/api/slots?providerType=Phlebotomist
+Authorization: Bearer {{token}}
+
+### Book an appointment (as Patient)
+POST {{Backend_HostAddress}}/api/appointments
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "availabilitySlotId": 1, "appointmentType": "HomeCollection", "testPanelIds": [1], "testIds": [5] }
+
+### My appointments / reports
+GET {{Backend_HostAddress}}/api/appointments
+Authorization: Bearer {{token}}
+
+###
+GET {{Backend_HostAddress}}/api/reports
+Authorization: Bearer {{token}}
+
+### Dashboard (Admin / Receptionist / lab staff)
+GET {{Backend_HostAddress}}/api/dashboard/summary
+Authorization: Bearer {{token}}

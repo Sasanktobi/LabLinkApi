@@ -1,0 +1,92 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2491 >>
+stream
+BT /F2 20 Tf 40 792 Td (LabLink Diagnostics) Tj ET
+BT /F1 12 Tf 40 774 Td (Laboratory Test Report) Tj ET
+BT /F2 10 Tf 435 792 Td (Report #1) Tj ET
+BT /F1 9 Tf 435 778 Td (Appointment #2) Tj ET
+1 w 40 762 m 555 762 l S
+BT /F1 8 Tf 40 25 Td (LabLink Diagnostics - Report #1 - Page 1) Tj ET
+BT /F2 10 Tf 40 742 Td (Patient:) Tj ET
+BT /F1 10 Tf 115 742 Td (Gutta Sasank) Tj ET
+BT /F2 10 Tf 297.5 742 Td (Patient ID:) Tj ET
+BT /F1 10 Tf 382.5 742 Td (1) Tj ET
+BT /F2 10 Tf 40 727 Td (Age / Sex:) Tj ET
+BT /F1 10 Tf 115 727 Td (31 yrs / Male) Tj ET
+BT /F2 10 Tf 297.5 727 Td (Sample date:) Tj ET
+BT /F1 10 Tf 382.5 727 Td (05 Oct 2026) Tj ET
+BT /F2 10 Tf 40 712 Td (Referred by:) Tj ET
+BT /F1 10 Tf 115 712 Td (Self) Tj ET
+BT /F2 10 Tf 297.5 712 Td (Report date:) Tj ET
+BT /F1 10 Tf 382.5 712 Td (06 Oct 2026 04:52 UTC) Tj ET
+0.88 g 40 681 515 18 re f 0 g
+BT /F2 10 Tf 44 687 Td (Test) Tj ET
+BT /F2 10 Tf 250 687 Td (Result) Tj ET
+BT /F2 10 Tf 330 687 Td (Unit) Tj ET
+BT /F2 10 Tf 400 687 Td (Reference Range) Tj ET
+BT /F2 10 Tf 510 687 Td (Flag) Tj ET
+BT /F1 10 Tf 44 665 Td (Haemoglobin) Tj ET
+BT /F1 10 Tf 250 665 Td (15 g/dL) Tj ET
+BT /F1 10 Tf 330 665 Td (g/dL) Tj ET
+BT /F1 10 Tf 400 665 Td (13 - 17) Tj ET
+BT /F1 10 Tf 510 665 Td (N/A) Tj ET
+0.25 w 40 660 m 555 660 l S
+BT /F1 10 Tf 44 649 Td (Platelet Count) Tj ET
+BT /F1 10 Tf 250 649 Td (320000 cell...) Tj ET
+BT /F1 10 Tf 330 649 Td (cells/uL) Tj ET
+BT /F1 10 Tf 400 649 Td (150000 - 410000) Tj ET
+BT /F1 10 Tf 510 649 Td (N/A) Tj ET
+0.25 w 40 644 m 555 644 l S
+BT /F1 10 Tf 44 633 Td (Red Blood Cell Count) Tj ET
+BT /F1 10 Tf 250 633 Td (4 million/uL) Tj ET
+BT /F1 10 Tf 330 633 Td (million/uL) Tj ET
+BT /F1 10 Tf 400 633 Td (4.5 - 5.5) Tj ET
+BT /F1 10 Tf 510 633 Td (N/A) Tj ET
+BT /F1 8 Tf 52 622 Td (RBC count is less than expected) Tj ET
+0.25 w 40 618 m 555 618 l S
+BT /F1 10 Tf 44 607 Td (Total Leucocyte Count) Tj ET
+BT /F1 10 Tf 250 607 Td (5500 cells/uL) Tj ET
+BT /F1 10 Tf 330 607 Td (cells/uL) Tj ET
+BT /F1 10 Tf 400 607 Td (4000 - 11000) Tj ET
+BT /F1 10 Tf 510 607 Td (N/A) Tj ET
+0.25 w 40 602 m 555 602 l S
+BT /F2 11 Tf 40 581 Td (Pathologist's Remarks) Tj ET
+BT /F1 10 Tf 40 566 Td (None.) Tj ET
+BT /F2 10 Tf 40 533 Td (Validated by: Pathologist 1) Tj ET
+BT /F1 10 Tf 40 520 Td (Validated on: 06 Oct 2026 04:52 UTC) Tj ET
+BT /F1 10 Tf 40 507 Td (Released on: 06 Oct 2026 04:52 UTC) Tj ET
+BT /F1 8 Tf 40 482 Td (Results flagged High/Low are outside the reference range. Please consult your doctor for interpretation.) Tj ET
+
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000320 00000 n 
+0000000456 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2999
+%%EOF
